@@ -33,6 +33,13 @@ const dashboard = (req, res) => {
   res.render('pages/dashboard', { title: 'Dashboard', name: req.session.name });
 };
 
+const notifications = (req, res) => {
+  res.render('pages/notifications', {
+    title: 'Notifications',
+    name: req.session.name,
+  });
+};
+
 const lastInternship = (req, res) => {
   res.render('pages/hngi7', { title: 'HNGi7 Summary', currentPage: 'hngi7' });
 };
@@ -46,5 +53,6 @@ module.exports = {
   dashboard,
   lastInternship,
   contact,
-  faqs
+  faqs,
+  notifications,
 };
