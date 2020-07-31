@@ -1,0 +1,17 @@
+.notifications button {
+  background-color: #fff;
+  color: #573f7b;
+}
+
+.detailed-notification {
+  color: #573f7b;
+}
+
+.detailed-notification h4 {
+  font-size: 21px;
+}
+
+.detailed-notification header span {
+  font-size: 1rem;
+  color: #7e5ae3;
+}

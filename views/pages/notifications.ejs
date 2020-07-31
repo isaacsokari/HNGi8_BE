@@ -1,0 +1,30 @@
+<!-- <%- include('../includes/head') %> -->
+<%- include('../includes/admin-header') %>
+<%- include('../includes/sidenav') %>
+<link rel="stylesheet" href="/styles/custom-css/notifications.css">
+
+<!-- notifications container -->
+<div class="container-fluid mt-4">
+  <div class="row">
+    <div class="notifications col-7">
+
+      <button onclick="showNotification()">
+        Notification One
+      </button>
+    </div>
+    <div class="detailed-notification col-3">
+      <header class="d-flex justify-content-between align-items-center">
+        <h4>Notification One</h4>
+        <span>12:44 AM</span>
+      </header>
+      <p id="notificationBody w-100">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus
+        necessitatibus numquam
+        quidem
+        consequuntur ipsam nulla libero nobis cumque! Nostrum, odio?</p>
+    </div>
+  </div>
+</div>
+
+
+</div>
+<%- include('../includes/footer') %>
